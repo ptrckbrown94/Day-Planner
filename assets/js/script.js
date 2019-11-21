@@ -1,4 +1,4 @@
-console.log("hi")
+console.log("hello")
 
 /*
 
@@ -23,7 +23,7 @@ n result in missed meetings and deadlines or create the appearance of unprofessi
 
 
 // function to display date and time at top of page
-function
+function (){}
 // get them element that the info goes into
 // decide on what it should look like
 // and then update it...
@@ -53,3 +53,4 @@ function
 16:""
 17:""
 }
+*/
