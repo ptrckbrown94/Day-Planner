@@ -22,21 +22,46 @@ n result in missed meetings and deadlines or create the appearance of unprofessi
 */
 
 
+//global variable
+const currentDay = moment().format('MMMM Do YYYY, h:mm:ss a')
+let hours = ["9:00 am","10:00 am", "11:00 am", "12:00 pm", "1:00 pm", "2:00 pm", "3:00 pm", "4:00 pm", "5:00 pm" ]  
+
+for()
 // function to display date and time at top of page
 
+function displayDate(){
+   const currentDayEl = document.getElementById("currentDayId");
+    currentDayEl.textContent = currentDay;
+}
+displayDate()
+generatePlanner()
 
-
-//document.createElement()
-currentDay = moment().format('MMMM Do YYYY, h:mm:ss a').innerhtml="";
-console.log(currentDay)
 
 // get the element that the info goes into
+const timeBlock = document.createElement("table")
 // decide on what it should look like
 // and then update it...
-// should this run in a loop and update the clock regularyary 
+
 
 // creat timeblocks with inputs and buttons
 // loop and dyamically
+
+function generatePlanner(){
+
+//
+//<div class="row">
+//      <div class="col-2">
+//        <h4>9:00 am</h4>
+//      </div>
+//      <div class="col-8">
+//          <textarea name="message" rows="6" cols="50" class = "future">The cat was playing in the garden.</textarea>
+//      </div>
+//      <div class="col-2">
+//        <button class="saveBtn btn-lg">Save</button>
+//      </div>
+//    </div>
+//
+}
 // add event to submit button to save what is in the 
 //      input in local storage
 //  get the value out of local storarge and populate
@@ -45,7 +70,7 @@ console.log(currentDay)
 //      moment?
 // look at css for classes later for this 
 
-// store data in local storage as an object where teh key is the hour of the day...
+// store data in local storage as an object where the key is the hour of the day...
 
 /*
 {
