@@ -1,4 +1,4 @@
-console.log("hello")
+
 
 /*
 
@@ -23,8 +23,14 @@ n result in missed meetings and deadlines or create the appearance of unprofessi
 
 
 // function to display date and time at top of page
-function (){}
-// get them element that the info goes into
+
+
+
+//document.createElement()
+currentDay = moment().format('MMMM Do YYYY, h:mm:ss a').innerhtml="";
+console.log(currentDay)
+
+// get the element that the info goes into
 // decide on what it should look like
 // and then update it...
 // should this run in a loop and update the clock regularyary 
@@ -34,7 +40,7 @@ function (){}
 // add event to submit button to save what is in the 
 //      input in local storage
 //  get the value out of local storarge and populate
-//      the input with teh datea
+//      the input with the data
 // check to see what the color should be based on the time?
 //      moment?
 // look at css for classes later for this 
